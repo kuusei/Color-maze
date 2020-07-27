@@ -1,0 +1,116 @@
+.game-button {
+    -fx-text-fill: white;
+    -fx-border-width: 0;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+    /*-fx-background-image: url("level_button.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 100%;
+    -fx-text-alignment: center;
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgba(55, 55, 55, 0);
+    -fx-font-family: "OCR A Extended";
+    -fx-font-size: 48;
+}
+.game-button-sm {
+    -fx-text-fill: white;
+    -fx-border-width: 0;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+    /*-fx-background-image: url("level_button.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 100%;
+    -fx-text-alignment: center;
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgba(55, 55, 55, 0);
+    -fx-font-family: "OCR A Extended";
+    -fx-font-size: 36;
+}
+.game-button-xs {
+    -fx-text-fill: white;
+    -fx-border-width: 0;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+    /*-fx-background-image: url("level_button.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 100%;
+    -fx-text-alignment: center;
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgba(55, 55, 55, 0);
+    -fx-font-family: "OCR A Extended";
+    -fx-font-size: 30;
+}
+.game-button2 {
+    -fx-text-fill: white;
+    -fx-border-width: 0;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-background-image: url("button.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-text-alignment: center;
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgba(55, 55, 55, 0);
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+}
+/*.game-button:pressed {*/
+/*    -fx-padding: 4 22 12 22;*/
+/*}*/
+/*.game-button:focused, .game-button:hover {*/
+/*    -fx-border-color: -fx-focus-color;*/
+/*    -fx-border-width: 0.5px;*/
+/*}*/
+.game-root{
+    -fx-background-image: url("main_bg.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+.game-root_level{
+    -fx-background-image: url("level_bg.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+ }
+.re-button {
+    -fx-background-image: url("re-button.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+    -fx-text-fill: white;
+    -fx-border-width: 0;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+    -fx-background-position: 100%;
+    -fx-text-alignment: center;
+    -fx-background-color: rgba(55, 55, 55, 0);
+    -fx-font-family: "OCR A Extended";
+    /*-fx-font-size: 48;*/
+}
+.setting-text {
+    -fx-font-family: "OCR A Extended";
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+
+}
+.slider .track{
+    -fx-background-color: white;
+    -fx-pref-height: 3;
+}
+.slider .thumb{
+    -fx-background-color: white;
+}
+.toggle-switch {
+    -jfx-toggle-color: #009688;
+    -jfx-untoggle-color: #FAFAFA;
+    -jfx-toggle-line-color: #77C2BB;
+    -jfx-untoggle-line-color: #999999;
+    -jfx-size: 10.0;
+    -jfx-disable-visual-focus: false;
+}
